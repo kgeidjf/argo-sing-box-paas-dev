@@ -1,20 +1,21 @@
 {
-    "name": "argo-sing-box-paas-dev",
-    "version": "1.0.0",
-    "description": "",
-    "scripts": {
-        "build": "echo \"No build specified\" && exit 1",
-        "test": "echo \"No test specified\" && exit 1",
-        "start": "node index.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/kgeidjf/argo-sing-box-paas-dev.git"
-    },
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/kgeidjf/argo-sing-box-paas-dev/issues"
-    },
-    "homepage": "https://github.com/kgeidjf/argo-sing-box-paas-dev#readme"
+  "name": "express-hello-world",
+  "version": "1.0.0",
+  "description": "Express Hello World on Render",
+  "main": "server.js",
+  "repository": "",
+  "author": "fscarmen",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6",
+    "request": "^2.88.2"
+  },
+  "engines": {
+    "node": ">=14"
+  }
 }
