@@ -2,7 +2,7 @@
   "name": "express-hello-world",
   "version": "1.0.0",
   "description": "Express Hello World on Render",
-  "main": "server.js",
+  "main": "Dockerfile",
   "repository": "",
   "author": "fscarmen",
   "license": "MIT",
